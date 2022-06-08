@@ -1,0 +1,47 @@
+version: '2'
+services:
+    web:
+        image: nginx:alpine
+        container_name: "nginx.alpha"
+        restart: always
+        ports:
+            - "80:80"
+        volumes:
+            - ../src:/code
+            - ./site.conf:/etc/nginx/conf.d/default.conf
+        links:
+            - php
+    php:
+        image: docker_php:latest
+        container_name: "php.alpha"
+        restart: always
+#        build: ./php
+        volumes:
+            - ../src:/code
+    mariadb:
+        image: mariadb/server:10.2
+        container_name: "mariadb"
+        restart: always
+        volumes:
+            - mariadb:/var/lib/mysql
+            - ./my.cnf:/etc/mysql/my.cnf
+            - ./dump:/etc/mysql/backup
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: "mega_secret"
+            MYSQL_DATABASE: "alpha"
+            MYSQL_USER: "alpha"
+            MYSQL_PASSWORD: 'secret'
+    redis:
+        image: redis:alpine
+        container_name: "redis.alpha"
+        restart: always
+        volumes:
+        - redisdata:/data
+volumes:
+  mariadb:
+    driver: local
+  redisdata:
+    driver: local 
+

@@ -1,0 +1,263 @@
+
+/* padding classes */
+
+.m-0{margin:0;}
+.m-1{margin:5px;}
+.m-2{margin:10px;}
+.m-3{margin:15px;}
+.m-4{margin:20px;}
+.m-5{margin:25px;}
+
+.mt-0{margin-top:0;}
+.mt-1{margin-top:5px;}
+.mt-2{margin-top:10px;}
+.mt-3{margin-top:15px;}
+.mt-4{margin-top:20px;}
+.mt-5{margin-top:25px;}
+
+.mr-0{margin-right:0;}
+.mr-1{margin-right:5px;}
+.mr-2{margin-right:10px;}
+.mr-3{margin-right:15px;}
+.mr-4{margin-right:20px;}
+.mr-5{margin-right:25px;}
+
+.mb-0{margin-bottom:0;}
+.mb-1{margin-bottom:5px;}
+.mb-2{margin-bottom:10px;}
+.mb-3{margin-bottom:15px;}
+.mb-4{margin-bottom:20px;}
+.mb-5{margin-bottom:25px;}
+
+.ml-0{margin-left:0;}
+.ml-1{margin-left:5px;}
+.ml-2{margin-left:10px;}
+.ml-3{margin-left:15px;}
+.ml-4{margin-left:20px;}
+.ml-5{margin-left:25px;}
+
+/* padding classes */
+
+.p-0{padding:0;}
+.p-1{padding:5px;}
+.p-2{padding:10px;}
+.p-3{padding:15px;}
+.p-4{padding:20px;}
+.p-5{padding:25px;}
+
+.pt-0{padding-top:0;}
+.pt-1{padding-top:5px;}
+.pt-2{padding-top:10px;}
+.pt-3{padding-top:15px;}
+.pt-4{padding-top:20px;}
+.pt-5{padding-top:25px;}
+
+.pr-0{padding-right:0;}
+.pr-1{padding-right:5px;}
+.pr-2{padding-right:10px;}
+.pr-3{padding-right:15px;}
+.pr-4{padding-right:20px;}
+.pr-5{padding-right:25px;}
+
+.pb-0{padding-bottom:0;}
+.pb-1{padding-bottom:5px;}
+.pb-2{padding-bottom:10px;}
+.pb-3{padding-bottom:15px;}
+.pb-4{padding-bottom:20px;}
+.pb-5{padding-bottom:25px;}
+
+.pl-0{padding-left:0;}
+.pl-1{padding-left:5px;}
+.pl-2{padding-left:10px;}
+.pl-3{padding-left:15px;}
+.pl-4{padding-left:20px;}
+.pl-5{padding-left:25px;}
+
+/* text colors */
+
+
+
+/* this section contains styles for admin panel aside nav section */
+
+
+.aside-menu-background,.first-level-menu-item  {
+    background-color:#5a6667;
+}
+
+.first-level-menu-item {
+    margin:10px 0 10px 0;
+}
+
+.first-level-menu-item span{
+    color:white;
+    font-weight:600;
+}
+
+
+.second-level-menu-item {
+    background-color:#646f70;
+    color:#d7ddda;
+}
+
+.second-level-menu-item a, .dropdown a.dropdown-toggle{
+    color:#d7ddda;
+}
+
+.second-level-menu-item a:hover, .dropdown a.dropdown-toggle:hover{
+    color: #759e8e;
+}
+
+
+.main-menu-list > .nav-item {
+    border-bottom:1px solid #d7ddda;
+    margin:5px 0 40px 0;
+}
+
+
+
+
+
+
+
+
+.green-border {
+    border: 2px solid #279e06;
+}
+
+.green-border:focus {
+    border: 2px solid #279e06;
+}
+
+.green-border:hover {
+    border: 2px solid #279e06;
+}
+
+
+
+/* hide rows in table after deleting, slide down */
+.neo-list-leave-to, .neo-list-enter {
+    opacity: 0;
+    transform: translateY(30px);
+}
+.neo-list-enter-active, .neo-list-leave-active {
+    transition: all 0.3s linear;
+}
+/* __END__*/
+
+
+/* hide rows in table after deleting, slide down */
+.shooting-star-leave-to, .shooting-star-enter {
+    opacity: 0;
+    /*transition: opacity 0.5s ease;*/
+    transform: translateY(30px);
+}
+.shooting-star-enter-active, .shooting-star-leave-active {
+    transition: all 0.5s linear;
+}
+
+/* __END__*/
+
+
+
+/* Vue specific component, hide block before data are prepared for it*/
+[v-cloak]{
+    display:none;
+}
+/* __END__*/
+
+
+/* We change the panel footer color, for more slide appearance of edit and new chef areas*/
+.panel-footer{
+    background-color:transparent;
+}
+/* __END__*/
+
+
+#expirationDatePicker{
+      margin-bottom:20px;
+  }
+
+.unactive-matrix-room{
+    color:#d2d2d2;
+}
+
+.unactive-employee{
+    background-color:#a7a7a7;
+}
+
+.active-operator-status-div{
+   margin-top:30px;
+}
+
+.entry-type-mailing-row-highlight{
+    background-color:grey;
+    color:white;
+}
+
+
+/* part below is for popup modal windows */
+
+
+
+
+
+.red-text{
+    color: red;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Crushed");
+
+.bs-example {
+    margin-top: 10%;
+}
+
+.bs-example2 {
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #FFF;
+    text-shadow: 1.25px 1px #25282a;
+}
+/* NONE OF THE FOLLOWING CSS IS NEEDED */
+
+
+
+.twitter {
+    margin: 2em auto 0px auto;
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+    color: #f5911d;
+    text-align: center;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+/* SIGNATURE CODE */
+a {
+    color: #f77d06;
+    -o-transition: color .5s ease-out, background 7s ease-in;
+    -ms-transition: color .5s ease-out, background 7s ease-in;
+    -moz-transition: color .5s ease-out, background 7s ease-in;
+    -webkit-transition: color .5s ease-out, background 7s ease-in;
+    transition: color .5s ease-out, background 7s ease-in;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFF;
+    background: none;
+    text-decoration: none;
+}
+
+.credits {
+    text-align: center;
+    font-family: 'Crushed';
+    font-size: 1.5vw;
+    color: #FFF;
+}
+.stars {
+    color: #f43a2f;
+    padding: 0 .5vw 0 .5vw;
+    font-size: 1.6vw;
+}

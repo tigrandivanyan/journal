@@ -1,0 +1,1125 @@
+/*---------------- main styles  ------------------*/
+
+
+/* main styles ! END */
+
+/*---------------- header styles  ------------------*/
+
+.second-btn-row button{
+    -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+    background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+    background-color:#007dc1;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+}
+
+.second-btn-row button:hover{
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+    background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+    background-color:#0061a7;
+}
+
+.tech-suport-specific-msg-sender{
+    width:80px;
+    font-size:12px;
+    border: 1px solid darkblue;
+    padding:0 5px;
+    font-weight:normal !important;
+    margin: 1px !important;
+    margin-left: 10px !important;
+}
+.unvisible-entry-edit-btn{
+    display:none;
+}
+
+.tech-suport-specific-msg{
+    border-radius:3px;
+}
+
+
+
+.hidden-container{
+    display:none;
+}
+
+div.ins{
+    height:300px;
+    overflow:auto !important;
+}
+
+.table-description{
+    max-width:600px;
+}
+
+.delete-notification-btn {
+    border:1px solid #bcdeff;
+    width:80px;
+}
+.delete-notification-btn:hover{
+    border:1px solid #2f79c2;
+    color: #2f79c2 !important;
+}
+
+
+.msg-for-support-wrapper {
+    margin-bottom:0 !important;
+}
+.tech-suport-specific-msg-wrapper {
+    overflow: hidden;
+    width:100%;
+    height:30px;
+    background-color:#e4eaff;
+    border-radius: 3px;
+    margin:5px 0 0 7px;
+    padding:0 10px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.5;
+
+}
+.for-middle-align{
+    margin:0 auto;
+    max-width:400px;
+    margin-top: 3px;
+}
+
+.entry-row-hover{
+    background-color: #efefef !important;
+}
+
+.tableDateSize{
+    min-width:100px;
+}
+
+.editButton{
+    position:absolute;
+    right:20px;
+    background-color:white;
+    height:18px;
+    line-height:0;
+    padding:0 7px;
+    margin:0;
+    font-size:0.9em;
+    border-radius:2px;
+    border:1px solid rgba(32, 37, 35, 0.71);
+}
+
+.openTechInstruction{
+   color:black;
+}
+
+.show-alert-date {
+    display:none;
+}
+
+.entry-table-edit-column{
+  width:1px;
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+
+.unvisible-table-row{
+    display:none;
+}
+
+.show-alert-date-hover{
+    display:block;
+    position:absolute;
+    background-color:white;
+    z-index:10;
+    left:10%;
+    padding:3px 10px;
+
+}
+
+.second-btn-row button:active{
+    position:relative;
+    top:1px;
+}
+
+.redButtonBorder{
+    border:2px solid red !important;
+}
+.matrixChatMessageList{
+    margin-bottom:0 !important;
+    max-height:220px;
+    overflow:auto;
+}
+
+.matrixChatMessageList p{
+    border-bottom: 1px solid #e3e3e3;
+    margin:0;
+}
+.matrixChatMessageList p span{
+    color:grey;
+}
+
+
+#divForChat{
+    padding: 10px 80px;
+}
+
+
+.auth-drop-down{
+    background-color:white;
+    border:1px solid #3594ff !important;
+    height:28px;
+    line-height:0;
+    margin:5px;
+    font-size:12px;
+}
+
+
+.notification-alert{
+    background-image: linear-gradient(to bottom, #fff 0, #e0de38 100%);
+}
+.entryTableSortType, .entryTableSortSpecial, .entryTableSort{
+    height: 28px !important;
+    font-size:13px;
+}
+
+.entryTableSort, .entryTableSortSpecial, .entryTableSortType{
+    background-image: linear-gradient(to bottom,#fff 0,#cbcbcb 100%);
+    border-collapse: collapse;
+    border:1px solid #939393;
+}
+.entryTableSort:hover, .entryTableSortSpecial:hover,  .entryTableSortType:hover {
+    background-image: linear-gradient(to bottom, #fff 0, #fff 100%);
+}
+
+
+.actime-menu-link button{
+    background-image: linear-gradient(to bottom, #fff 0, #fffe96 100%);
+}
+.header-wrapper{
+     width:90%;
+     margin:3px auto;
+ }
+
+.header-wrapper .col-md-6{
+  padding:0;
+}
+
+#notificationButtonOpener{
+    margin:0 auto;
+}
+
+#notificationButtonOpenerSmall{
+    display:none;
+}
+
+
+
+.header-navbar-wrapper{
+    /*background-image: linear-gradient(to top, #FFFFFF 0%, #EBFFAB 100%);*/
+    /*background-image: linear-gradient(to top, #FFFFFF 0%, #F2FF9E 100%);*/
+    /*background-image: linear-gradient(to bottom, #1A3D5C 50%, #FFFFFF 100%);*/
+    background-color:none !important;
+    border-bottom:1px solid black !important;
+    border-radius:0;
+    margin-bottom:20px;
+
+    /*height:40px;*/
+
+}
+
+.header-navbar-wrapper .col-md-6{
+margin-bottom:0;
+}
+.header-navbar-wrapper .col-md-6 a{
+    /*margin:0;*/
+    /*padding:0;*/
+}
+
+#sessionForm{
+    /*height:30px;*/
+}
+
+#addTimeIntervalShowBtn, .addEntryButton button,
+#notificationButtonOpenerSmall button{
+    background-color:white;
+    color:black;
+    border:1px solid #c6c6c6;
+}
+#notificationButtonOpenerSmall button {
+    border:1px solid #3594ff;
+
+}
+.logget-user-name{
+    position:relative;
+    top:12px;
+}
+
+#notificationButtonOpenerSmall > button {
+    position:relative;
+margin:10px;
+    /*top:7px;*/
+    left:100%;
+}
+
+
+
+#notificationButtonOpenerSmall .dropdown-menu {
+   padding:10px;
+}
+
+
+
+#addTimeIntervalShowBtn:hover,
+#notificationButtonOpener button:hover,
+.addEntryButton button:hover,
+#notificationButtonOpenerSmall button:hover{
+    background-image: linear-gradient(to bottom,#fff 0,#ffe668 100%);
+
+}
+
+#entryTime:focus,
+#entryDate:focus,
+#chefId:focus,
+#entryTour:focus,
+#entrySelect:focus,
+#entryTypeSelectorSelector:focus,
+#entryDescription:focus {
+ border:1px solid #3594ff;
+    box-shadow:2px 2px 2px;
+    opacity:0.9 !important;
+}
+
+#entryTypeSelector{
+    margin-top:5px;
+}
+
+#updateEntrySubmitBtn, #updateEntryCancelBtn{
+    font-size:0.9em;
+    background-image: linear-gradient(to bottom,#fff 0,#ffe668 100%);
+    border:1px solid #29439c;
+    height:26px;
+    line-height:0px;
+    margin-top:20px;
+}
+
+
+#entryStartTimePicker, #entryEndTimePicker{
+    height:20px;
+    width:70px;
+    display: inline;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+
+}
+
+/*---------------- operator instruction window  ------------------*/
+
+.col-for-show-all-chat-messages{
+   margin:0 !important;
+}
+
+#showAllChatMessages{
+    float:right;
+    height:22px;
+    text-size:10px;
+    line-height:0px;
+    background-color:#fff;
+    border:1px solid #3594ff;;
+    border-radius: 4px;
+}
+#sendMessageToChat{
+    height:32px;
+    line-height:0px;
+    background-color:#fff8a9;
+    border:1px solid #3594ff;;
+    border-radius: 4px;
+}
+#sendMessageToChat:hover {
+    background-image: linear-gradient(to bottom,#fff 0,#ffe668 100%);
+}
+
+
+#notificationButtonOpener button{
+    height:28px;
+    line-height:0px;
+    background-color:white;
+    border:1px solid #3594ff;;
+    border-radius: 4px;
+    font-size:12px;
+}
+
+
+#instructionHideBtn{
+    background-image: linear-gradient(to bottom,#fff 0,#ffe668 100%);
+    border:1px solid #29439c;
+    position:absolute;
+    top:4px;
+    right:30px;
+    margin:5px;
+}
+.operator-instruction-wrapper{
+    display:inline-block;
+    position:fixed !important;
+    z-index:5;
+
+    background-color:#fcf17b;
+    padding:12px !important;
+    background-color:rgba(33, 55, 71, 0.5);
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+
+.operator-instruction{
+
+    max-width:1000px;
+    max-height:800px;
+    min-width:260px;
+    min-height:500px;
+    overflow:auto;
+    position:relative;
+    border:3px solid #0066ec;
+    border-radius:4px;
+    z-index:6;
+    margin:0 auto;
+    top:10%;
+    background-image: linear-gradient(to bottom,#fcf8e3 0,#ecdc8d 100%);
+    padding:30px;
+}
+
+.operator-instruction-text{
+font-family:monospace;
+    text-indent: 2em;
+    display: block;
+    padding: 9.5px;
+    margin: 10px 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.operator-instruction-wrapper{
+    display:none;
+}
+/*----------------__END__ operator instruction window  ------------------*/
+
+
+
+.vertical-button-group{
+    display:none;
+
+}
+#showAllAnnouncementBtn {
+    float:right;
+    display:inline-block;
+    border-radius:4px;
+    border:1px solid #3cafd5;
+}
+#showAllAnnouncementBtn:hover {
+    color:white;
+    border:1px solid #1050D5;
+}
+
+.alertPanelTitle{
+    overflow:auto;
+}
+.alertPanelTitle:parent{
+    background-image: linear-gradient(to bottom, #fff 0, #fffe96 100%);
+}
+
+.horizontal-button-group{
+    display:table;
+}
+
+.horizontal-button-group .btn-group .entryTableSort{
+    font-size:13px;
+}
+
+.navbar{
+   padding-right:25px;
+}
+
+#datepicker{
+    border-radius:3px;
+    width:70%;
+    margin:0 4px;
+    float:left;
+}
+
+
+.ui-datepicker-trigger{
+
+    width:20%;
+    min-height:14px;
+    min-width:14px;
+    max-height:18px;
+    max-width:18px;
+}
+
+
+/* header styles ! END */
+
+/*---------------- support message area styles  ------------------*/
+
+
+.successfully-send-msg-to-support{
+    margin-bottom:0;
+}
+
+#divForBegginers{
+    padding: 10px;
+    background-color:#fff;
+    margin-bottom:0;
+}
+
+#divForBegginers button{
+     background-color:#e4eaff;
+     font-weight:bold;
+ }
+
+#divForBegginers button:hover{
+    background-color:#6c8af3;
+    border:1px solid black;
+}
+.show-support-message-blog{
+    height:auto !important;
+    display:block;
+}
+ #instruction{
+     color:inherit !important;
+
+ }
+
+#instruction:hover{
+    color:black !important;
+}
+
+
+
+.session-form-wrapper{
+    border:1px solid white;
+}
+
+
+
+.col-md-6 button{
+    margin:5px;
+}
+
+
+/*support message area styles ! END */
+
+
+.timeBreakContainer table tr{
+color:#005300;
+height:40px;
+    padding:0;
+    margin:0;
+
+}
+.timeBreakContainer table tr td{
+    padding:0;
+    margin:0;
+    height:10px;
+    padding-left:20px;
+}
+
+#chefOrderingTableRow{
+    height:10px !important;
+
+}
+
+.table thead tr th{
+    font-size:12px;
+}
+
+
+.btn-group-sort{
+    height:10px;
+    padding:0;
+    margin:0;
+}
+.btn-group-sort div{
+    height:10px;
+    padding:0;
+    margin:0;
+    max-height: 30px;
+}
+
+.btn-group-sort div button{
+    padding:4px;
+
+}
+
+
+
+
+#chefOrderingTableRow button{
+    height:16px;
+    font-size:12px;
+    line-height:2px;
+    float:right;
+    margin-right:20px;
+    margin-top:2px;
+}
+#chefOrderingTableRow form button{
+    height:16px;
+    font-size:12px;
+    line-height:2px;
+    float:right;
+    margin-right:20px;
+    margin-top:2px;
+}
+
+.panel-body table{
+    font-size:1.3rem;
+
+}
+
+. task-table{
+    /*min-width:480px;*/
+}
+
+.panel-body{
+   padding:0;
+    /*overflow:auto;*/
+}
+#chefOrderingTableRow form button i{
+
+    line-height:2px;
+
+}
+#chefOrderingTableRow form button.btn-danger {
+
+    margin-bottom:3px;
+
+}
+
+
+
+.info-hover-hide{
+    padding-top:5px;
+    height:46px;
+    overflow:hidden;
+}
+
+
+
+
+
+
+/*---------------- buttons for studio wheel, tour corigation ------------------*/
+
+#tourMinus{
+    position:absolute;
+    left:225px;
+    top:12px;
+}
+#tourPlus{
+    position:absolute;
+    left:225px;
+    top:-5px;
+}
+.my-btn{
+    margin:0;
+    font-weight:bold;
+    height:17px;
+    padding-top:0;
+    padding-bottom:8px !important;
+    line-height: 15px;
+    width:30px;
+    text-align:center;
+}
+#tourPlus .my-btn{
+    padding-left:11px;
+    border-radius: 0 4px 0 0;
+}
+#tourMinus .my-btn{
+    padding-left:12px;
+    border-radius: 0 0 4px 0;
+}
+
+
+
+
+
+#sectorTourCorrection{
+    border:1px solid darkgrey;
+    border-radius: 10px;
+    width:400px;
+    padding:10px;
+margin-bottom:10px;
+}
+
+#supportMessageButtons{
+    border:1px solid darkgrey;
+    border-radius: 10px;
+    width:480px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+
+
+
+
+#alertTable{
+  margin-top:30px;
+  /*padding-left:50px;*/
+
+}
+
+
+
+
+#alertPanelLeft{
+    padding:0;
+
+
+}
+.alertDeleteBtn:hover {
+    color:black;
+}
+
+
+
+
+
+
+.alertDeleteBtn, .alertInfoBtn{
+    display:inline;
+    float:left;
+
+   background-color:#d9edf7;
+
+    border:none;
+    position:relative;
+    padding:5px;
+    margin:0;
+    font-size:13px;
+    color:#999;
+    line-height:0;
+    left:-10px;
+}
+
+.alertInfoBtn{
+    line-height:1;
+}
+#alertFlag{
+    position:relative;
+    right:-200px;
+
+}
+
+
+
+    /*---------------- new Entry Form  ------------------*/
+
+.div-for-input{
+    position:relative;
+}
+
+.div-for-edit-input{
+    margin-top:8px;
+}
+.div-for-edit-input input {
+border-radius: 6px;
+    position:absolute;
+    left:120px;
+
+}
+
+.div-for-edit-textarea{
+    border-radius: 6px;
+    width: 70%;
+    min-width: 210px;
+    height: 110px;
+    resize: none;
+    margin-top:8px;
+}
+.new-entry-label{
+    margin:10px 10px 10px 60px;
+}
+
+.new-entry-input{
+     display: inline;
+     width: 120px;
+     height: 34px;
+     padding: 6px 12px;
+     font-size: 14px;
+     line-height: 1.42857143;
+     color: #555;
+     background-color: #fff;
+     background-image: none;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+ }
+
+.new-entry-input-left{
+    position:absolute;
+    left:140px;
+}
+
+.new-entry-input-right{
+    width:400px;
+}
+.new-entry-input-right#entryDescription{
+    margin-top:20px;
+    height:80px;
+    max-height: 200px;
+    max-width:400px;
+    min-height: 80px;
+    min-width:400px;
+}
+
+
+#formLeftWrapper{
+     width:400px;
+     float:left;
+     margin-right:170px;
+ }
+
+#formRightWrapper{
+    width:500px;
+    float:left;
+}
+
+.new-entry-input#chefId{
+    width: 200px;
+}
+
+.col-md-6{
+    margin-bottom:20px;
+}
+
+#divMarkEntryAsAnnouncement{
+    margin-left:0;
+    width:500px;
+}
+#divMarkEntryAsAnnouncement label span{
+
+    font-size:10px;
+    margin-left: 8px;
+    margin-top:0;
+    position:relative;
+    top:-3px;
+
+}
+#divMarkEntryAsAnnouncement label{
+    font-size:10px;
+    margin-left: 8px;
+    padding:0;
+}
+
+
+
+    /*  ___END___  new Entry Form  */
+
+
+label.error{
+     font-size:12px;
+     color:grey;
+     position:relative;
+     left:180px;
+    top:-5px;
+
+ }
+label[for='entryDescription']{
+    left:10px;
+}
+
+
+.btn-size{
+    width:50px;
+    height:32px;
+}
+
+
+.sendBtn{
+    font-size:11px;
+    background-color:white;
+    border:1px solid grey;
+}
+
+
+
+#studio{
+    display: none;
+}
+.input-hide{
+    display: none;
+}
+.hiddenButton{
+    visibility:hidden;
+}
+
+
+
+
+.announcementStyle {
+    color: rgba(54,179,217,1);
+    font-weight: 500;
+}
+
+.mailStyle form button{
+color: rgba(54,179,217,1);
+
+}
+
+
+
+#entry-select{
+    margin-left:0;
+    margin-top:0px;
+    margin-bottom:10;
+    width: 480px;
+}
+
+
+
+.pinkiVinki{border:4px solid red;}
+
+.studioSelect, .operatorSelect, .description-select{
+    display: inline;
+    width: 220px;
+    height: 32px;
+    margin:10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+
+}
+
+/*
+.addEntryButton{
+    margin:20px 30px 30px 00px;
+}
+*/
+
+.myHeader{
+    display:inline-block;
+    font-weight:strong;
+}
+
+.rightClass{
+
+    position:absolute;
+    right: 20px;
+
+
+}
+.rightClassBottom{
+    font-size:10px;
+   
+    position:absolute;
+    right: 30px;
+    top:50px;
+
+
+}
+.editEntryTd{
+    display:inline-block;
+    position:fixed !important;
+    z-index:5;
+
+    background-color:#fcf17b;
+    padding:12px !important;
+    background-color:rgba(33, 55, 71, 0.5);
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+
+.entry-edit-form-wrapper{
+    max-width:500px;
+    max-height:400px;
+    min-width:260px;
+    mix-height:400px;
+    position:relative;
+    border:3px solid #0066ec;
+    border-radius:4px;
+    z-index:6;
+    margin:0 auto;
+    top:20%;
+    background-image: linear-gradient(to bottom,#fcf8e3 0,#ecdc8d 100%);
+    padding:30px;
+}
+
+.operator-name{
+    width:180px;
+}
+
+.hiddenTd{
+    display:none;
+}
+
+
+
+
+
+.task-table td {
+    position:relative;
+}
+@media(max-width:730px) {
+
+    .entry-announcement-mark{
+        display:none !important;
+    }
+    .tourForPicker{
+        height:35px;
+    }
+    .task-table thead{
+        display:none;
+    }
+
+    .task-table td {
+        display:block;
+        left:25%;
+        margin-left:30px;
+max-width:60%;
+    }
+    .task-table td:before{
+        content: attr(data-label);
+        position:absolute;
+        left:-90px;
+    }
+}
+
+@media(max-width:1000px) {
+    #notificationButtonOpenerSmall{
+        display:inline-block;
+        left:15%;
+    }
+    .header-wrapper{
+        display:none;
+    }
+}
+
+
+
+@media(max-height:600px) {
+    .entry-edit-form-wrapper{
+        top:2%;
+    }
+}
+
+@media(max-height:900px) {
+    .operator-instruction{
+        top:2%;
+    }
+}
+
+@media(max-width:500px){
+    .tourForPicker{
+        height:18px;
+    }
+
+
+    #updateEntrySubmitBtn, #updateEntryCancelBtn{
+        font-size:0.8em;
+    }
+    .newEntryInput{
+        width:95px;
+    }
+
+    .operator-instruction{
+        padding-right:12px;
+        padding-left:12px;
+    }
+    #datepicker{
+        border-radius:0;
+        width: 20%;
+        visibility: hidden;
+    }
+
+    .btn-group-sort div button{
+        font-size:80%;
+    }
+
+    .task-table tbody tr td{
+        font-size:80%;
+        padding:2px;
+    }
+
+    .btn-size{
+        width:20px;
+        height:20px;
+        padding:0;
+    }
+
+    .horizontal-button-group div{
+        border:1px solid red;
+        display:inline-block;
+        float:left;
+        position:relative;
+    }
+
+
+
+    .vertical-button-group{
+        display:table;
+
+    }
+
+    .horizontal-button-group{
+        display:none;
+
+    }
+    .entry-announcement-mark{
+        display:none !important;
+    }
+    /*.tableDateSize{*/
+    /*display: none;*/
+    /*}*/
+
+}
+
+@media(max-width:550px){
+    .tech-suport-specific-msg-wrapper, .for-middle-align{
+        height:75px;
+    }
+    /*.tech-suport-specific-msg, .tech-suport-specific-msg-sender, .tech-suport-specific-msg-span{*/
+        /*float:left;*/
+    /*}*/
+
+}

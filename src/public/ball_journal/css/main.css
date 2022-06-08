@@ -1,0 +1,21 @@
+.hidden-container{
+   display:none;
+}
+
+div.ins{
+   height:300px;
+   overflow:auto !important;
+}
+
+.table-description{
+   max-width:600px;
+}
+
+.delete-notification-btn {
+   border:1px solid #bcdeff;
+   width:80px;
+}
+.delete-notification-btn:hover{
+   border:1px solid #2f79c2;
+   color: #2f79c2 !important;
+}
